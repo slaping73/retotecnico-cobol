@@ -1,3 +1,5 @@
+// libreria para trabajar con files
+const fs = require('fs');
 
 // Leer el archivo CSV
 const data = fs.readFileSync('transacciones.csv', 'utf8');
